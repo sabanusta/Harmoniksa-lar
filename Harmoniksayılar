@@ -1,0 +1,31 @@
+package Ders01;
+
+import java.util.Scanner;
+
+public class harmonikSayi {
+    public static void main(String[] args) {
+        // 1+1/2 ..........1/n
+        double n;
+
+        double sonuc=0.0;
+
+
+
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Bir sayı giriniz");
+        n=input.nextDouble();
+
+        for (int i = 1; i <=n ; i++) {
+
+            sonuc=sonuc+(1/n);
+
+
+        }
+        System.out.println(sonuc);
+
+
+
+
+    }
+}
